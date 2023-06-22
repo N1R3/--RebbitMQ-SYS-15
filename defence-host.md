@@ -18,7 +18,7 @@
 
 ### Задание 1
  - Установите eCryptfs.
-1.sudo apt install ecryptfs-utils
+1. sudo apt install ecryptfs-utils
 
 - Добавьте пользователя cryptouser.
 
