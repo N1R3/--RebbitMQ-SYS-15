@@ -26,11 +26,8 @@
 Проведите разведку системы и определите, какие сетевые службы запущены на защищаемой системе:
 
 sudo nmap -sA < ip-адрес >
-
 sudo nmap -sT < ip-адрес >
-
 sudo nmap -sS < ip-адрес >
-
 sudo nmap -sV < ip-адрес >
 
 По желанию можете поэкспериментировать с опциями: https://nmap.org/man/ru/man-briefoptions.html.
