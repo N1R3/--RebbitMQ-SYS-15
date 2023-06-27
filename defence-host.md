@@ -21,5 +21,22 @@
  - sudo apt install ecryptfs-utils
 
 2. Добавьте пользователя cryptouser.
-3. 
+3. Зашифруйте домашний каталог пользователя с помощью eCryptfs.
 
+В качестве ответа пришлите снимки экрана домашнего каталога пользователя с исходными и зашифрованными данными.
+
+![снимок](https://github.com/N1R3/dz_netology/assets/119298019/797628a4-a917-44d7-ba1b-1a48443cd258)
+![Снимок2](https://github.com/N1R3/dz_netology/assets/119298019/36df319a-c7ec-487b-a126-387ebc20f7fd)
+![Снимок3](https://github.com/N1R3/dz_netology/assets/119298019/a1c626c6-4eea-4aed-a57f-68ec01e8687b)
+
+
+### Задание 2
+1. Установите поддержку LUKS.
+2. Создайте небольшой раздел, например, 100 Мб.
+3. Зашифруйте созданный раздел с помощью LUKS.
+
+В качестве ответа пришлите снимки экрана с поэтапным выполнением задания.
+
+![Снимок5](https://github.com/N1R3/dz_netology/assets/119298019/8e84f69c-044e-4e2f-a3f4-78daaf4a3a02)
+![Снимок6](https://github.com/N1R3/dz_netology/assets/119298019/1061f9d4-c325-4654-aa58-35f8a9826fbc)
+![Снимок7](https://github.com/N1R3/dz_netology/assets/119298019/bb0f2118-1f46-40a7-8c6f-2c72e5e5bb22)
