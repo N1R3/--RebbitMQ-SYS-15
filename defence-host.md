@@ -25,7 +25,7 @@
 
 В качестве ответа пришлите снимки экрана домашнего каталога пользователя с исходными и зашифрованными данными.
 
-![снимок](https://github.com/N1R3/dz_netology/assets/119298019/797628a4-a917-44d7-ba1b-1a48443cd258)
+![снимок](https://github.com/N1R3/dz_netology/assets/119298019/a62100c5-3f94-48df-ae1c-ae395e6d7d8a)
 ![Снимок2](https://github.com/N1R3/dz_netology/assets/119298019/36df319a-c7ec-487b-a126-387ebc20f7fd)
 ![Снимок3](https://github.com/N1R3/dz_netology/assets/119298019/a1c626c6-4eea-4aed-a57f-68ec01e8687b)
 
