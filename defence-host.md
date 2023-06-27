@@ -18,8 +18,6 @@
 
 ### Задание 1
 1. Установите eCryptfs.
- - sudo apt install ecryptfs-utils
-
 2. Добавьте пользователя cryptouser.
 3. Зашифруйте домашний каталог пользователя с помощью eCryptfs.
 
