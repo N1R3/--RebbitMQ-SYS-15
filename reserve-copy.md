@@ -81,7 +81,7 @@ unset PGPASSWORD
 Приведите ответ в свободной форме.
 
 3.1
-```sql
+```bash
  mysqlbackup --defaults-file=/home/dbadmin/my.cnf \
   --incremental --incremental-base=history:last_backup \
   --backup-dir=/home/dbadmin/temp_dir \
