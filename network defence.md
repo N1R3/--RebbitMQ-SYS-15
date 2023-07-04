@@ -58,8 +58,13 @@ hydra -L users.txt -P pass.txt < ip-адрес > ssh
 
 Включение защиты SSH для Fail2Ban:
 открыть файл /etc/fail2ban/jail.conf,
-найти секцию ssh,
-установить enabled в true.
+найти секцию ssh, установить enabled в true.
 Дополнительная информация по Fail2Ban:https://putty.org.ru/articles/fail2ban-ssh.html.
 
 В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.
+суриката предупреждает об атаке методом подбора и говорит о действии протокола в одном направлении 
+![Снимок6](https://github.com/N1R3/dz_netology/assets/119298019/9721ff1b-c1af-477d-9f7e-f4ee3a8496a3)
+
+Fail2Ban сбрасывает соединение и сообщает о попытке взлома и показывает ip злоумышлинника 
+![Снимок7](https://github.com/N1R3/dz_netology/assets/119298019/28792470-0f61-43c9-a566-3e15b755bece)
+
