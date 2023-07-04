@@ -86,7 +86,7 @@ mysqlbackup --defaults-file=/home/dbadmin/my.cnf \
   --incremental --incremental-base=history:last_backup \
   --backup-dir=/home/dbadmin/temp_dir \
   --backup-image=incremental_image1.bi \
-   backup-to-image
+    backup-to-image
 ```
 3.1*
 ```bash
