@@ -48,3 +48,7 @@
 
 Приведите ответ в свободной форме.
 
+pg_dump -U user > /tmp/my.dump
+
+pg_restore -d mydb my.dumpp
+
