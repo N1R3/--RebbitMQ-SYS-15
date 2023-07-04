@@ -27,3 +27,9 @@
 from payment p, rental r, customer c, inventory i, film f
 where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and r.customer_id = c.customer_id and i.inventory_id = r.inventory_id
 
+![Снимок1](https://github.com/N1R3/dz_netology/assets/119298019/7fa9d951-70d9-444a-a373-fdc55bc7cc18)
+
+  - перечислите узкие места;
+  - оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
+![Снимок2](https://github.com/N1R3/dz_netology/assets/119298019/c0919e95-66f3-44b8-8741-13dc68dd9916)
+убрал лишних операторов и таблицу
