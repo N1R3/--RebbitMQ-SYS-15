@@ -47,9 +47,28 @@
 2.1.* Возможно ли автоматизировать этот процесс? Если да, то как?
 
 Приведите ответ в свободной форме.
+2.1 создание дампа
 ```sql
 pg_dump -U user > /tmp/my.dump
-
+```
+восстановление
 ```sql
 pg_restore -d mydb my.dumpp
+```
+2.1* 
+```bash
+#!/bin/sh
+PATH=/etc:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 
+PGPASSWORD=password
+export PGPASSWORD
+pathB=/backup
+dbUser=dbuser
+database=db
+
+find $pathB \( -name "*-1[^5].*" -o -name "*-[023]?.*" \) -ctime +61 -delete
+pg_dump -U $dbUser $database | gzip > $pathB/pgsql_$(date "+%Y-%m-%d").sql.gz
+
+unset PGPASSWORD
+```
+и добавить скрипт в кронтаб
