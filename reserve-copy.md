@@ -72,3 +72,23 @@ pg_dump -U $dbUser $database | gzip > $pathB/pgsql_$(date "+%Y-%m-%d").sql.gz
 unset PGPASSWORD
 ```
 и добавить скрипт в кронтаб
+
+№№№ Задание 3. MySQL
+3.1. С помощью официальной документации приведите пример команды инкрементного резервного копирования базы данных MySQL.
+
+3.1.* В каких случаях использование реплики будет давать преимущество по сравнению с обычным резервным копированием?
+
+Приведите ответ в свободной форме.
+
+3.1
+```sql
+mysqlbackup --defaults-file=/home/dbadmin/my.cnf \
+  --incremental --incremental-base=history:last_backup \
+  --backup-dir=/home/dbadmin/temp_dir \
+  --backup-image=incremental_image1.bi \
+   backup-to-image
+```
+3.1*
+```bash
+xtrabackup --backup --target-dir=/data/backups/inc1 --incremental-basedir=/data/backups/base
+```
